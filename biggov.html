@@ -533,7 +533,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Nothing is listening on port 443.
+            <code>connect()</code> to port 443 times out.
         
         </ul>
         
@@ -1677,7 +1677,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -1757,7 +1757,7 @@ window.addEventListener("load", function onLoad() {
     <h2 class="cat-name">Department of Defence</h2>
     <a class="cat-name-link" title="Link to this category" href="#Defence">¶</a>
     <div class="cat-counts">
-      <span class="site-grade-bad">19</span>/<span class="site-grade-mediocre">3</span>/<span class="site-grade-good">0</span>
+      <span class="site-grade-bad">18</span>/<span class="site-grade-mediocre">4</span>/<span class="site-grade-good">0</span>
     </div>
   </div>
   <div class="site-category">
@@ -1951,7 +1951,7 @@ window.addEventListener("load", function onLoad() {
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">Cadetnet (Australian Defence Force Cadets)</span>
         <span class="site-domain">(<a href="https://www.cadetnet.gov.au" rel="nofollow">www.cadetnet.gov.au</a>)</span>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
@@ -1962,7 +1962,15 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Requesting HTTPS page times out.
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
         
         </ul>
         
@@ -2242,7 +2250,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate hostname verification fails.
+            <code>connect()</code> to port 443 times out.
         
         </ul>
         
@@ -2755,7 +2763,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate hostname verification fails.
+            Nothing is listening on port 443.
         
         </ul>
         
@@ -6328,7 +6336,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Nothing is listening on port 443.
+            <code>connect()</code> returns with error EHOSTUNREACH.
         
         </ul>
         
@@ -6428,7 +6436,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Nothing is listening on port 443.
+            <code>connect()</code> returns with error EHOSTUNREACH.
         
         </ul>
         
@@ -11908,7 +11916,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            The HTTPS site redirects to HTTP.
+            Connection error when connecting to the HTTPS site.
         
         </ul>
         
@@ -14570,7 +14578,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> returns with error EHOSTUNREACH.
+            DNS lookup failed.
         
         </ul>
         
@@ -15529,8 +15537,12 @@ window.addEventListener("load", function onLoad() {
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=invest.dha.gov.au">SSL Labs report</a>)
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            The HTTPS site redirects to HTTP.
         
         </ul>
         
@@ -17258,7 +17270,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Nothing is listening on port 443.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -17594,7 +17606,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> returns with error EHOSTUNREACH.
+            Nothing is listening on port 443.
         
         </ul>
         
@@ -17834,7 +17846,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Nothing is listening on port 443.
+            <code>connect()</code> returns with error EHOSTUNREACH.
         
         </ul>
         
@@ -19708,7 +19720,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 </script>
 
       <footer>
-        Created by <a href="https://benjamin.pe">Benjamin Peterson</a>. Forked by <a href="http://www.github.com/fukawi2/">Phillip Smith</a>. Maintained by <a href="https://twitter.com/RedLetterSec/">Ashley Hull</a>. <a href="/about">About page</a> for more information.<br />Last updated <time>2015-06-30 16:02Z</time>.
+        Created by <a href="https://benjamin.pe">Benjamin Peterson</a>. Forked by <a href="http://www.github.com/fukawi2/">Phillip Smith</a>. Maintained by <a href="https://twitter.com/RedLetterSec/">Ashley Hull</a>. <a href="/about">About page</a> for more information.<br />Last updated <time>2015-07-01 16:02Z</time>.
       </footer>
     </div>
   </body>
