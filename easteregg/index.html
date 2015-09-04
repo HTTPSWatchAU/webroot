@@ -36,6 +36,8 @@
 	  <th>Warnings <sup><a href="#warnings">#</a></sup></th>
 	  <th>Status</th>
 	</thead>
+	<tbody>
+	</tbody>
       </table>
 
       <div id="spinner" class="spinner"></div>
@@ -57,5 +59,13 @@
 
     <script src="sparkline.js"></script>
     <script src="ssltest.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.13/jquery.floatThead.min.js"></script>	
+	<script type="text/javascript">
+	$('#resultsTable').floatThead({
+		useAbsolutePositioning: false
+	});
+	</script>
   </body>
 <html>

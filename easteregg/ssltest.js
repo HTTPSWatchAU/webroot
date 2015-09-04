@@ -26,7 +26,7 @@ function sortByKey(array, key) {
 
 function displayResults(input) {
     var SSLTESTURL = "https://www.ssllabs.com/ssltest/analyze.html";
-    var table = document.getElementById("resultsTable");
+    var table = document.getElementById("resultsTable").getElementsByTagName('tbody')[0];;
     data = input.results;
     var summary = {"A": 0, "B": 0, "C": 0, "D": 0, "E": 0, "F": 0, "X": 0 };
     var totalOrgs = data.length;

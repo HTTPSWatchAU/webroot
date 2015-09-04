@@ -11,6 +11,7 @@ table {
 th {
     font-size: large;
     vertical-align: bottom;
+	background-color: white;
 }
 
 table, th, td {
