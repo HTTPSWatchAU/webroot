@@ -1080,8 +1080,8 @@ window.addEventListener("load", function onLoad() {
             A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.ahpra.gov.au">SSL Labs report</a>)
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
-            A page can be successfully fetched over HTTPS.
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
@@ -1815,7 +1815,7 @@ window.addEventListener("load", function onLoad() {
     <h2 class="cat-name">Department of Defence</h2>
     <a class="cat-name-link" title="Link to this category" href="#Defence">¶</a>
     <div class="cat-counts">
-      <span class="site-grade-bad">18</span>/<span class="site-grade-mediocre">4</span>/<span class="site-grade-good">0</span>
+      <span class="site-grade-bad">17</span>/<span class="site-grade-mediocre">5</span>/<span class="site-grade-good">0</span>
     </div>
   </div>
   <div class="site-category">
@@ -2241,7 +2241,7 @@ window.addEventListener("load", function onLoad() {
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">OnSecure</span>
         <span class="site-domain">(<a href="https://www.onsecure.gov.au" rel="nofollow">www.onsecure.gov.au</a>)</span>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
@@ -2251,8 +2251,16 @@ window.addEventListener("load", function onLoad() {
             A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.onsecure.gov.au">SSL Labs report</a>)
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Requesting HTTPS page times out.
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
         
         </ul>
         
@@ -3203,7 +3211,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            Nothing is listening on port 443.
         
         </ul>
         
@@ -6474,7 +6482,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> returns with error EHOSTUNREACH.
+            Nothing is listening on port 443.
         
         </ul>
         
@@ -6514,7 +6522,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Nothing is listening on port 443.
+            <code>connect()</code> returns with error EHOSTUNREACH.
         
         </ul>
         
@@ -6534,7 +6542,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> returns with error EHOSTUNREACH.
+            Nothing is listening on port 443.
         
         </ul>
         
@@ -7175,8 +7183,8 @@ window.addEventListener("load", function onLoad() {
             <code>Strict-Transport-Security</code> header is not set.
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            HTTP site doesn't redirect to HTTPS.
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
         
         </ul>
         
@@ -7308,7 +7316,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -7589,7 +7597,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate not trusted by Mozilla cert store.
+            Nothing is listening on port 443.
         
         </ul>
         
@@ -7625,7 +7633,7 @@ window.addEventListener("load", function onLoad() {
     <h2 class="cat-name">Department of the Prime Minister and Cabinet</h2>
     <a class="cat-name-link" title="Link to this category" href="#PM">¶</a>
     <div class="cat-counts">
-      <span class="site-grade-bad">12</span>/<span class="site-grade-mediocre">3</span>/<span class="site-grade-good">0</span>
+      <span class="site-grade-bad">10</span>/<span class="site-grade-mediocre">5</span>/<span class="site-grade-good">0</span>
     </div>
   </div>
   <div class="site-category">
@@ -7635,7 +7643,7 @@ window.addEventListener("load", function onLoad() {
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">Parliamentary Secretary to the Prime Minister</span>
         <span class="site-domain">(<a href="https://alantudge.dpmc.gov.au" rel="nofollow">alantudge.dpmc.gov.au</a>)</span>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
@@ -7645,8 +7653,16 @@ window.addEventListener("load", function onLoad() {
             A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=alantudge.dpmc.gov.au">SSL Labs report</a>)
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Requesting HTTPS page times out.
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
         
         </ul>
         
@@ -7799,14 +7815,26 @@ window.addEventListener("load", function onLoad() {
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">Office for Women</span>
         <span class="site-domain">(<a href="https://www.dpmc.gov.au" rel="nofollow">www.dpmc.gov.au</a>)</span>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.dpmc.gov.au">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
         
         </ul>
         
@@ -7950,7 +7978,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -13135,8 +13163,8 @@ window.addEventListener("load", function onLoad() {
             A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.aftrs.edu.au">SSL Labs report</a>)
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
-            A page can be successfully fetched over HTTPS.
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
@@ -13407,12 +13435,8 @@ window.addEventListener("load", function onLoad() {
         <ul class="site-check-list">
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
-            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.aiatsis.gov.au">SSL Labs report</a>)
-        
-          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            The HTTPS site redirects to HTTP.
+            <code>connect()</code> to port 443 times out.
         
         </ul>
         
@@ -13789,7 +13813,7 @@ window.addEventListener("load", function onLoad() {
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">Australian Data Archive (ADA)</span>
         <span class="site-domain">(<a href="https://www.ada.edu.au" rel="nofollow">www.ada.edu.au</a>)</span>
-        <span class="site-grade site-grade-mediocre">Mediocre</span>
+        <span class="site-grade site-grade-bad">Bad</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
@@ -13799,16 +13823,8 @@ window.addEventListener("load", function onLoad() {
             A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.ada.edu.au">SSL Labs report</a>)
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
-            A page can be successfully fetched over HTTPS.
-        
-          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>Strict-Transport-Security</code> header is not set.
-        
-          <li class="site-check-item">
-            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            HTTP site doesn't redirect to HTTPS.
+            Requesting HTTPS page times out.
         
         </ul>
         
@@ -14451,8 +14467,8 @@ window.addEventListener("load", function onLoad() {
             <code>Strict-Transport-Security</code> header is not set.
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
-            HTTP site redirects to HTTPS.
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTTP site times out.
         
         </ul>
         
@@ -14584,7 +14600,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            DNS lookup failed.
+            <code>connect()</code> to port 443 times out.
         
         </ul>
         
@@ -16605,14 +16621,26 @@ window.addEventListener("load", function onLoad() {
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">Great Barrier Reef Marine Park Authority</span>
         <span class="site-domain">(<a href="https://www.gbrmpa.gov.au" rel="nofollow">www.gbrmpa.gov.au</a>)</span>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.gbrmpa.gov.au">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            DNS lookup failed.
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
         
         </ul>
         
@@ -16636,7 +16664,7 @@ window.addEventListener("load", function onLoad() {
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            DNS lookup failed.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -20038,7 +20066,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 </script>
 
       <footer>
-        Created by <a href="https://benjamin.pe">Benjamin Peterson</a>. Forked by <a href="http://www.github.com/fukawi2/">Phillip Smith</a>. Maintained by <a href="https://twitter.com/CyberShambles">Ashley Hull</a>. <a href="/about">About page</a> for more information.<br />Last updated <time>2016-01-21 15:03Z</time>.
+        Created by <a href="https://benjamin.pe">Benjamin Peterson</a>. Forked by <a href="http://www.github.com/fukawi2/">Phillip Smith</a>. Maintained by <a href="https://twitter.com/CyberShambles">Ashley Hull</a>. <a href="/about">About page</a> for more information.<br />Last updated <time>2016-01-23 15:03Z</time>.
       </footer>
     </div>
   </body>
